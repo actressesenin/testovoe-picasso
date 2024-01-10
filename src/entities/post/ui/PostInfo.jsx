@@ -7,7 +7,7 @@ const PostInfo = () => {
   const { data: postFetched } = postApi.useFetchPostByIdQuery(Number(id));
 
   const navigateToMain = () => {
-    navigate('/');
+    navigate('/testovoe-picasso/');
   };
 
   return (
