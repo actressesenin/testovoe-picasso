@@ -3,7 +3,7 @@ import { useNavigate } from 'react-router-dom';
 const PostItem = ({ post }) => {
   const navigate = useNavigate();
   const navigateToPostInfo = () => {
-    navigate(`/${post.id}`);
+    navigate(`/testovoe-picasso/${post.id}`);
   };
 
   return (
