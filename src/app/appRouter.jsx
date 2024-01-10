@@ -8,7 +8,7 @@ export const router = createBrowserRouter([
     element: <App />,
   },
   {
-    path: '/:id',
+    path: '/testovoe-picasso/:id',
     element: <PostInfo />,
   },
 ]);
