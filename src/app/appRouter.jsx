@@ -4,11 +4,11 @@ import PostInfo from '../entities/post/ui/PostInfo';
 
 export const router = createBrowserRouter([
   {
-    path: '/',
+    path: '/testovoe-picasso/',
     element: <App />,
   },
   {
-    path: '/:id',
+    path: '/testovoe-picasso/:id',
     element: <PostInfo />,
   },
 ]);
